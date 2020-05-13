@@ -1,0 +1,36 @@
+<div id=\"portfolioDiv\">
+
+
+
+<script>
+	 portfolio = [ 
+			{ \"filename\" : \"./img/bg-img/bof.jpg\" , \"title\": \"\", \"date\": 12/12/2020  },
+			{ \"filename\" : \"./img/bg-img/1.jpg\" , \"title\": \"\", \"date\": 12/12/2020  },			
+			{ \"filename\" : \"./img/bg-img/2.jpg\" , \"title\": \"\", \"date\": 12/12/2020  }
+	]
+
+	myDiv = document.getElementById('portfolioDiv');
+		
+		
+	
+	
+	function showPortfolio (  portfolio,  myDiv ){
+		for (var i = 0; i < portfolio.length; i++) { 
+		myDiv.innerHTML += 	"<div class=\"col-12 col-sm-6 col-lg-3 single_gallery_item country mb-30 wow fadeInUp\" data-wow-delay=\"700ms\">"+
+		"<div class=\"single-portfolio-content\">"+
+			"<img src=\"'+ portfolio[i].filename +'\" alt=\"\">"+
+          	"<div class=\"hover-content\">"+
+                      "<a href=\"'+portfolio[i].filename+'\" class=\"portfolio-img\">+</a>"+
+               " </div>"+
+		"   </div>"+
+		"</div>";		
+		
+		}
+	};
+	
+
+	myDiv.innerHTML =  ' ';
+	showPortfolio(portfolio, myDiv);
+	
+
+ </script>
