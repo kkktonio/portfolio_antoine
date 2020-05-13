@@ -1369,7 +1369,7 @@ input:required {
     font-size: 12px;
     text-transform: uppercase;
     color: #ffffff;
-    background-color: #00E69D;
+    background-color: #b0b1b3;
     top: 15px;
     right: 15px;
     z-index: 20;
@@ -1401,7 +1401,7 @@ input:required {
           left: -11px;
           z-index: 1; }
         .single-post-area .post-content .post-meta a:hover, .single-post-area .post-content .post-meta a:focus {
-          color: #00E69D; }
+          color: #b0b1b3; }
           .single-post-area .post-content .post-meta a:hover::after, .single-post-area .post-content .post-meta a:focus::after {
             color: #ffffff; }
     .single-post-area .post-content .post-title {
