@@ -414,6 +414,9 @@ input:required {
 .btn:focus {
   box-shadow: none; }
 
+.btn2{
+  color: #666666 !important;
+}
 .alime-btn {
   position: relative;
   z-index: 1;
@@ -613,17 +616,17 @@ input:required {
 .main-header-area {
   position: relative;
   z-index: 1;
-  background-color: transparent;
+  /* background-color: transparent; */
   -webkit-transition-duration: 500ms;
   -o-transition-duration: 500ms;
   transition-duration: 500ms;
-  height: 70px;
-  background-color: rgba(0, 0, 0, 0.2); }
+  height: 70px; }
   .main-header-area.sticky {
-    background-color: #000000; }
+    background-color: #000000;
+    background-color: rgba(0, 0, 0, 0.2);}
 
 .classy-navbar-toggler .navbarToggler span {
-  background-color: #ffffff; }
+  background-color: #ffffff;}
 
 /* :: 8.0 Hero CSS */
 .welcome-area {
