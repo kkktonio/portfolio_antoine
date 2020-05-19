@@ -1,7 +1,7 @@
-portfolio = [
-    			{ "filename" : "portfolio/img/bg-img/10.jpg"},
-    			{ "filename" : "portfolio/img/bg-img/24.jpg"},
-    			{ "filename" : "portfolio/img/bg-img/30.jpg"}
+var portfolio = [
+    			{ "filename" : "./portfolio/img/bg-img/10.jpg"},
+    			{ "filename" : "./portfolio/img/bg-img/24.jpg"},
+    			{ "filename" : "./portfolio/img/bg-img/30.jpg"}
     	];
 
 myDiv = document.getElementById('portfolioDiv');
